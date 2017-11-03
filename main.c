@@ -32,6 +32,6 @@ int main() {
         counter++;
     }
 
-    printf("Size of make.c: %f %s\n", size, units[counter]); 
+    printf("Size of make.c: %0.2f %s\n", size, units[counter]); 
     printlikedashl(perms);
 }
